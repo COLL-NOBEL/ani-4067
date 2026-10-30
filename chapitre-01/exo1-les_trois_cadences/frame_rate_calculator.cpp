@@ -1,9 +1,12 @@
 #include <iostream>
 
+// Function to find frame rate time left for computayion in 
+// milliseconds given that 8 milliseconds are used by VR headset hardware
 float activeTimeLeft (float FrameRate) {
     return (1000 / FrameRate) - 8;
 }
 
+function to 
 int main () {
     float StopProgram = 0;
 
